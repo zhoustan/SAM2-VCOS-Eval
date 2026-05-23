@@ -117,13 +117,21 @@ For additional command line arguments, see ```python finetune_sam2_MoCAMask.py -
 If you find this project useful, please consider giving a star :star: and citation &#x1F4DA;:
 
 ```bibtex
-@misc{zhou2024sam2meetsvideocamouflaged,
-      title={When SAM2 Meets Video Camouflaged Object Segmentation: A Comprehensive Evaluation and Adaptation}, 
-      author={Yuli Zhou and Guolei Sun and Yawei Li and Luca Benini and Ender Konukoglu},
-      year={2024},
-      eprint={2409.18653},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.18653}, 
+@article{zhou2025sam2,
+      title={When {SAM2} meets video camouflaged object segmentation: A comprehensive evaluation and adaptation},
+      author={Zhou, Yuli and Sun, Guolei and Li, Yawei and Xie, Guo-Sen and Benini, Luca and Konukoglu, Ender},
+      journal={Visual Intelligence},
+      volume={3},
+      number={1},
+      pages={10},
+      year={2025},
+      publisher={Springer}
+}
+
+@inproceedings{zhou2025camsam,
+      title={Cam{SAM}2: Segment Anything Accurately in Camouflaged Videos},
+      author={Yuli Zhou and Yawei Li and Yuqian Fu and Luca Benini and Ender Konukoglu and Guolei Sun},
+      booktitle={NeurIPS},
+      year={2025}
 }
 ```
